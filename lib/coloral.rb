@@ -1,5 +1,7 @@
 require "coloral/version"
 
 module Coloral
-  # Your code goes here...
+  def self.hello_world
+    "Hello World"
+  end
 end
