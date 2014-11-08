@@ -23,8 +23,23 @@ Or install it yourself as:
     $ gem install coloral
 
 ## Usage
+Below is the basic API for using `Coloral` with RGB and all other plugins follow a identical format substituting `rgb`. In addition to RGB `Coloral` also supports
 
-TODO: Write usage instructions here
+* RGB
+* HSL
+* Hex
+* HSB/HSV
+* *and many more comming soon*
+
+```ruby
+require 'coloral'
+Coloral.from_rgb 250, 75, 119 # Also supports array
+Coloral.from_rgb red: 250, green: 75, blue: 119 # Also supports hash input
+my_color = Coloral.from_rgb 250, 75, 119 #=> #<Coloral::Color @hue=345, @saturation=95, @lightness=64>
+my_color.to_hex #=> "#F94A77"
+my_color.to_css_rgb #=> "rgb(250, 75, 119)"s
+
+```
 
 ## Contributing
 
