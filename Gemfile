@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "2.0"
+ruby "2.0.0"
 # Specify your gem's dependencies in coloral.gemspec
 gemspec
 
