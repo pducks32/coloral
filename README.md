@@ -1,4 +1,5 @@
 # Coloral
+[![Gem Version](https://badge.fury.io/rb/coloral.svg)](http://badge.fury.io/rb/coloral)
 [![Build Status](https://travis-ci.org/pducks32/coloral.svg?branch=master)](https://travis-ci.org/pducks32/coloral)
 [![Code Climate](https://codeclimate.com/github/pducks32/coloral/badges/gpa.svg)](https://codeclimate.com/github/pducks32/coloral)
 [![Test Coverage](https://codeclimate.com/github/pducks32/coloral/badges/coverage.svg)](https://codeclimate.com/github/pducks32/coloral)
@@ -27,7 +28,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/coloral/fork )
+1. Fork it ( https://github.com/pducks/coloral/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
