@@ -2,6 +2,12 @@ require "spec_helper"
 
 module Coloral
   describe Color do
+    
+    it "has hsl attributes" do
+      attributes = { hue: 220, saturation: 60, lightness: 55 }
+      expect(Color.from_hsl(attributes)).to have_attributes attributes
+    end
+
     describe "::from_hex" do
       context "with no parameters" do
         it "raises ArgumentError" do
