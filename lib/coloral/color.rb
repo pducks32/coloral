@@ -1,4 +1,6 @@
-class Color
+class Coloral::Color
+
+  include Coloral::RGBModel
 
   attr_reader :hue, :saturation, :lightness
 
